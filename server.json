@@ -1,0 +1,22 @@
+{
+  "categories": [
+    { "id": "teclados", "title": "Teclados" },
+    { "id": "notebooks", "title": "Notebooks" },
+    { "id": "armazenamento", "title": "SSD" },
+    { "id": "gabinetes", "title": "Gabinetes" },
+    { "id": "mouses", "title": "Mouses" },
+    { "id": "hadware", "title": "Placas-de-Video" }
+  ],
+  "products": [
+    { "id": 1, "title": "Teclado Mecânico", "price": 350, "category_id": "teclados", "slug": "teclado-mecanico"},
+    { "id": 2, "title": "Mouse Gamer", "price": 120.9, "category_id": "mouses", "slug": "mouse-gamer"},
+    { "id": 3, "title": "SSD 512GB", "price": 650.45, "category_id": "ssd", "slug": "ssd-512gb"},
+    { "id": 4, "title": "Notebook Gamer", "price": 7000, "category_id": "notebooks", "slug": "notebook-gamer"},
+    { "id": 5, "title": "Monitor Gamer", "price": 2000, "category_id": "monitores", "slug": "monitor-gamer"},
+    { "id": 6, "title": "Gabinete Gamer", "price": 500, "category_id": "gabinetes", "slug": "gabinete-gamer"}
+  ],
+  "recommended": [
+    { "id": 1, "title": "Teclado Mercânico", "price": 350, "category_id": "teclados", "slug": "teclado-mecanico"},
+    { "id": 4, "title": "Notebook Gamer", "price": 7000, "category_id": "notebooks", "slug": "notebook-gamer"}
+  ]
+}

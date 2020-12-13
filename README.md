@@ -1,30 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Artigo sobre Next.js feito para a GeekHunter
 
-## Getting Started
+- Essa pequena aplicação foi desenvolvida utilizando o Next.js para atender um convite para escrever um artigo para a GeekHunter.
 
-First, run the development server:
+- Esse código implementa, de forma básica, as funcionalidades das diferentes formas como o Next.js consome os dados de uma API.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- São esses os métodos:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - Client Sid Fetiching
+  - Server Side Rendering
+  - Static Site Generation
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## API utilizada nessa aplicação
 
-## Learn More
+Para simular uma chamada à API, foi utilizado o json-server.
 
-To learn more about Next.js, take a look at the following resources:
+## Uso de Typescript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Esse projeto utilizou o Typescript para implementação do código. Caso você queira utilizar apenas o Javascript, basta deletar o
+aquivo tsconfig.json e a dependência "typescript" do projeto, antes de executar os comandos para instalação das dependências.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Rodando a aplicação na sua máquina
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Para rodar a aplicação na sua máquina, basta executar o comando yarn, ou npm install, para instalar todas as dependências desse projeto.
